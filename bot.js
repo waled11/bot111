@@ -57,7 +57,7 @@ client.on('ready',  () => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('adminbc')){
-if(!message.author.id === '587105966936424485') return;
+if(!message.author.id === '613824929376501761') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["587105966936424485","id"]
+const developers = ["613824929376501761","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
